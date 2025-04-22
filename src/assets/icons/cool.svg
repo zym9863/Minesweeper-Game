@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="12" cy="12" r="10" fill="#FFDE59" />
+  
+  <!-- Sunglasses -->
+  <rect x="5" y="8" width="14" height="4" rx="1" fill="#333" />
+  <line x1="12" y1="8" x2="12" y2="12" stroke="#FFDE59" stroke-width="0.5" />
+  
+  <!-- Smile -->
+  <path d="M7,15 C8,17 10,18 12,18 C14,18 16,17 17,15" stroke="#333" stroke-width="1.5" stroke-linecap="round" fill="none" />
+</svg>

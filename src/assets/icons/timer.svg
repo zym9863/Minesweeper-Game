@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clock face -->
+  <circle cx="12" cy="12" r="9" fill="#fff" stroke="#333" stroke-width="2" />
+  
+  <!-- Clock hands -->
+  <line x1="12" y1="12" x2="12" y2="7" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="12" y1="12" x2="16" y2="14" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Top buttons -->
+  <circle cx="9" cy="3" r="1" fill="#333" />
+  <circle cx="15" cy="3" r="1" fill="#333" />
+</svg>

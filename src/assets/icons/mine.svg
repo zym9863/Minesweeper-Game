@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mine body -->
+  <circle cx="12" cy="12" r="8" fill="#333" />
+  <circle cx="12" cy="12" r="7" fill="#222" />
+  
+  <!-- Shine effect -->
+  <circle cx="9" cy="9" r="2" fill="#555" />
+  
+  <!-- Spikes -->
+  <line x1="12" y1="0" x2="12" y2="4" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="12" y1="20" x2="12" y2="24" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="0" y1="12" x2="4" y2="12" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="20" y1="12" x2="24" y2="12" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  
+  <line x1="3.5" y1="3.5" x2="6.5" y2="6.5" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="17.5" y1="17.5" x2="20.5" y2="20.5" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="3.5" y1="20.5" x2="6.5" y2="17.5" stroke="#333" stroke-width="2" stroke-linecap="round" />
+  <line x1="17.5" y1="6.5" x2="20.5" y2="3.5" stroke="#333" stroke-width="2" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,151 @@
+:root {
+  /* Modern color palette */
+  --color-primary: #3498db;
+  --color-secondary: #2ecc71;
+  --color-danger: #e74c3c;
+  --color-warning: #f39c12;
+  --color-info: #9b59b6;
+  --color-light: #ecf0f1;
+  --color-dark: #2c3e50;
+  --color-gray: #95a5a6;
+  --color-gray-light: #bdc3c7;
+  --color-gray-dark: #7f8c8d;
+
+  /* Game specific colors */
+  --cell-unrevealed: #7d8ca3;
+  --cell-unrevealed-hover: #6c7a8c;
+  --cell-revealed: #ecf0f1;
+  --cell-mine: #e74c3c;
+  --cell-flagged: #f39c12;
+  --board-bg: #34495e;
+  --board-border: #2c3e50;
+
+  /* UI colors */
+  --ui-bg: #f5f7fa;
+  --ui-element-bg: #ffffff;
+  --ui-border: #dfe4ea;
+  --ui-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-dark);
+  background-color: var(--ui-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--ui-bg) 0%, #d6e4ff 100%);
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: var(--color-dark);
+  font-weight: 700;
+  text-shadow: 1px 1px 0 var(--ui-shadow);
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--ui-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--ui-element-bg);
+  color: var(--color-dark);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px var(--ui-shadow);
+}
+
+button:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px var(--ui-shadow);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px var(--ui-shadow);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--ui-element-bg);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ui-bg);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gray-light);
+  border-radius: 5px;
+  border: 2px solid var(--ui-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray);
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.pop {
+  animation: pop 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.shake {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-1px, 0, 0); }
+  20%, 80% { transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-3px, 0, 0); }
+  40%, 60% { transform: translate3d(3px, 0, 0); }
+}

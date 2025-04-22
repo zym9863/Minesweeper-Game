@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="12" cy="12" r="10" fill="#FFDE59" />
+  
+  <!-- Eyes -->
+  <circle cx="8" cy="9" r="1.5" fill="#333" />
+  <circle cx="16" cy="9" r="1.5" fill="#333" />
+  
+  <!-- Smile -->
+  <path d="M7,14 C8,16 10,17 12,17 C14,17 16,16 17,14" stroke="#333" stroke-width="1.5" stroke-linecap="round" fill="none" />
+</svg>

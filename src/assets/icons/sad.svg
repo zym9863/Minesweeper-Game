@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="12" cy="12" r="10" fill="#FFDE59" />
+  
+  <!-- Eyes -->
+  <line x1="7" y1="8" x2="9" y2="10" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="9" y1="8" x2="7" y2="10" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+  
+  <line x1="15" y1="8" x2="17" y2="10" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="17" y1="8" x2="15" y2="10" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Frown -->
+  <path d="M7,16 C8,14 10,13 12,13 C14,13 16,14 17,16" stroke="#333" stroke-width="1.5" stroke-linecap="round" fill="none" />
+</svg>
